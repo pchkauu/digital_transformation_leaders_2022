@@ -1,0 +1,107 @@
+name: solution
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  animated_text_kit: ^4.2.1
+  auto_size_text: ^2.1.0
+  cupertino_icons: ^1.0.2
+
+  data_tables: ^1.4.0
+  fl_chart: ^0.36.1
+  fluro: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bootstrap: ^1.0.2
+  flutter_html: any
+  flutter_svg: ^0.22.0
+  flutter_widget_from_html: ^0.7.0
+  flutter_widget_from_html_core: ^0.7.0
+  font_awesome_flutter: ^10.1.0
+  fwfh_webview: ^0.6.2
+  github: ^9.2.0
+  google_fonts: ^2.1.0
+  html: ^0.15.1
+  http: ^0.13.1
+  mailto: ^2.0.0
+  percent_indicator: ^3.0.1
+  provider: ^6.0.1
+  shared_preferences: ^2.0.6
+  smooth_scroll_web: ^0.0.4
+  universal_html: ^2.0.4
+  url_launcher: ^6.1.2
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/videogif.gif
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: fonts/agustina/agustina.ttf
+
+    - family: Manrope
+      fonts:
+        - asset: fonts/manrope/manrope.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/Montserrat-Regular.ttf
+        - asset: fonts/montserrat/Montserrat-Bold.ttf
+        - asset: fonts/montserrat/Montserrat-ExtraLight.ttf
+        - asset: fonts/montserrat/Montserrat-Medium.ttf
+        - asset: fonts/montserrat/Montserrat-Thin.ttf
+        - asset: fonts/montserrat/Montserrat-SemiBold.ttf
+        - asset: fonts/montserrat/Montserrat-Black.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Light.ttf
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic

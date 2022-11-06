@@ -1,0 +1,3 @@
+class contentRU {
+    static const about_h1 = "Кто мы такие?";
+}

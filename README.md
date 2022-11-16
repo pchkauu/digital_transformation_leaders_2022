@@ -1,6 +1,10 @@
 # dippvvod
 Программное решение для хакатона "Лидеры Цифровой Трансформации 2022".
 
+Front-end https://drive.google.com/file/d/16ATBkrOEKxFGXIv0lyH_Z8jw8yFSGFhY/view?usp=sharing
+Back-end https://drive.google.com/file/d/1IlikjcHrOXRegEQyfy15TVFdTEebpNmv/view?usp=sharing
+
+
 Документация
 
 

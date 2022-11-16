@@ -42,11 +42,12 @@ GAN-CT
 
 На сервере создать каталог research/, перенести в него файлы из папки solution/research.
 
+В директории research в файле src/js/ui/toolbar.js выставить параметры для передачи по REST API
 
 
 Развертывание бэкенда
 
-Захостить сервер Apache. Установить daemon с файлом rest_api.py
+Захостить сервер Apache. Установить daemon с файлом back-end/rest_api.py 
 
 
 
